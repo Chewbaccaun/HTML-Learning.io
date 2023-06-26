@@ -6,17 +6,32 @@
     <meta name = "author" content = "Gustavo Silva">
     <meta name = "description" content = "This page contains all the things I am learning how to create as I learn HTML.">
     <title>My First Web Page</title>
-    <link rel = "icon" href = "html5.png" type = "image/x-icon">
+    <link rel = "icon" href = "img/html5.png" type = "image/x-icon">
     <link rel = "stylesheet" href = "main.css" type = "text/css">
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <h1>My Goals for the year!</h1>
 
     <hr>
 
+    <nav>
+        <ul>
+            <li>
+                <a href="#html">Learn HTML,CSS</a>
+            </li>
+            <li>
+                <a href="#vacation">Planning a vacation</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section id="html">
     <h2>I'm ready to learn HTML</h2>
     <p>This is my first web page.</p>
+    <img src="img/HTML5_big.png" alt="HTML5 Logo" title="Hamood" width="256" height="256" loading="lazy">
 
     <h3>My daily Schedule</h3>
     <p>Let me tell you how:</p>
@@ -24,23 +39,41 @@
         <li>...I learn more about web dev.</li>
         <li>...I plan out my schedule.</li>
         <li>...I use resources from <abbr title="Mozilla Developer Network"> <a href = "https://developer.mozilla.org/en-US/">MDN</a></abbr>.</li>
-        
     </ol>
+    </section>
 
     <hr>
 
+    <section id="vacation">
     <h2>I'm also planing a Vacation</h2>
+    <figure>
+        <img src="img/vacation.jpg" 
+        alt="beach image" title="Sugma" 
+            width="512" height="256" 
+            loading="lazy">
+        <figcaption>
+            Beach picture.
+        </figcaption>
+    </figure>
     <p>I've been working hard and <em>really need a getaway.</em></p>
-    <p>I live in <abbr title = "Parana"> <a href = "https://en.wikipedia.org/wiki/Paran%C3%A1_(state)">PR</a></abbr> so i want visit a beach.</p>
+    <p>I live in <abbr title = "Parana"> <a href = "https://en.wikipedia.org/wiki/Paran%C3%A1_(state)">PR</a></abbr> so it's not an ideal place to a vacation</p>
 
     <h3>Places I'd like to Visit</h3>
     <ul>
-    <li><p>I've heard good things about the Caribbean.</p></li>
     <li><p>I've heard good things about going here:</p>
     <address>
-        Cancun<br>
-        Bahia<br>
-        Japan<br>
+        <a href="https://en.wikipedia.org/wiki/Japan">Japan</a><br>
+        <img src="img/japan.jpg" alt="Japan image" title="Best place" width="512" height="256" loading="lazy"><br>
+
+        <a href="https://en.wikipedia.org/wiki/Australia">Australia</a><br>
+        <img src="img/australia.jpg" alt="Australia image" title="Mid place" width="512" height="256" loading="lazy"><br>
+
+        <a href="https://en.wikipedia.org/wiki/Taiwan">Taiwan</a><br>
+        <img src="img/taiwan.jpg" alt="Taiwan image" title="Cool place" width="512" height="256" loading="lazy"><br>
+
+        <a href="https://en.wikipedia.org/wiki/Italy">Italy</a><br>
+        <img src="img/italy.jpg" alt="Italy image" title="Origin place" width="512" height="256" loading="lazy"><br>
+
     </address>
     </li>
     </ul>
@@ -48,17 +81,21 @@
     <h3>Places I want to Avoid</h3>
     <dl>
         <dt>Sahara Desert</dt>
-        <dd>I hear this is <strong>Hot.</strong></dd>
+        <dd>This is <strong>Hot.</strong></dd>
 
         <dt>Atacama Desert</dt>
         <dd>This is also Hot.</dd>
 
         <dt>United States</dt>
-        <dd>I just don't like that country.</dd>
+        <dd>Personal dislike</dd>
     </dl>
-
+    </section>
+    
     <hr>
     &lt;&lt;&lt; &copy; <a href = "about.html">Gustavo Silva</a> &gt;&gt;&gt;
+    <p>
+        <a href="#">Back to Top</a>
+    </p>
 
 </body>
 
